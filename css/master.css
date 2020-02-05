@@ -52,10 +52,14 @@ margin-right: auto;
 }
 
 .dog{
-text-align: right;
 margin-left: auto;
 margin-right: auto;
 }
+.doge{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
 .kobi{
   text-align: right;
