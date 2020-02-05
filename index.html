@@ -6,6 +6,11 @@
 		Your browser does not support the audio element.
 	  </audio>
 
+	  <audio autoplay Loop>
+		<source src="../media/Home.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	  </audio>
+
 <!--
 A fan page/memoir of my dog Kobi:
 **********************
@@ -18,17 +23,17 @@ Death
 -->
 
 <html>
-	<body style="background-color: lightblue;">
+	<body style="background-color: #E7717D;">
 	<!--Source of css style and website style-->
 	<link rel="stylesheet" type="text/css" href="../css/master.css" /> 
-	
+
+	<!---Navigation-->
 <div class = "Navigation">
 
-
 	<audio id="player" src="../media/Click.mp3"></audio>
-
+	
 	<div>
-    	<a class="active" href="#" onclick="document.getElementById('player').play()">Home</a>
+		<a class="active" href="#" onclick="document.getElementById('player').play()">Home</a>
 	</div>
 
 	<div>
@@ -46,7 +51,7 @@ Death
 	<div>
     	<a href="Death.html" onclick="document.getElementById('player').play()"><i>Death</i></a>
 	</div>
-	 
+
 </div>
 
 	 <!---
@@ -64,28 +69,39 @@ Death
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	</head>
 
-	<div class="title-div">
-        <h1><b>Kobi</b></h1>
+	<div class="title">
+		<h1><b>Kobi</b></h1>
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
       </div>
 	
  <div class="box">
- <!-----
-	<img src = "../images/.png" alt="" class="box-img">
- --->
+
   <video autoplay loop muted>
 	<source src="../media/Kobi.mp4" type="video/mp4">
 	<source src="../media/Kobi.mp4" type="video/ogg">
 	Your browser does not support the video tag.
   </video>
-</br>
-<img src="../images/Burrito.jpg" alt="Burrito" style="width:25%">
-<img src="../images/Glance.jpg" alt="Glance" style="width:25%">
-<img src="../images/Hug.jpg" alt="Hug" style="width:25%">
-<img src="../images/Stare.jpg" alt="Stare" style="width:25%">
-<img src="../images/Stare2.jpg" alt="Stare2" style="width:25%">
-<img src="../images/Surprise.jpg" alt="Surprise" style="width:25%">
 
-  <p>Starting paragraph of my fan page.</p>
+  <video autoplay loop muted>
+	<source src="../media/yawn.mp4" type="video/mp4">
+	<source src="../media/yawn.mp4" type="video/ogg">
+	Your browser does not support the video tag.
+  </video>
+
+  <video autoplay loop muted>
+	<source src="../media/brush.mp4" type="video/mp4">
+	<source src="../media/brush.mp4" type="video/ogg">
+	Your browser does not support the video tag.
+  </video>
+
+	</br>
+	<img src="../images/Burrito.jpg" alt="Burrito" style="width:25%">
+	<img src="../images/Glance.jpg" alt="Glance" style="width:25%">
+	<img src="../images/Hug.jpg" alt="Hug" style="width:25%">
+	<img src="../images/Stare.jpg" alt="Stare" style="width:25%">
+	<img src="../images/Stare2.jpg" alt="Stare2" style="width:25%">
+	<img src="../images/Surprise.jpg" alt="Surprise" style="width:25%">
+
  </div>
 	</body>   
 </html>
