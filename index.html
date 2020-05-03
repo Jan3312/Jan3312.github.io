@@ -1,85 +1,107 @@
 <!DOCTYPE html>
 <html>
 
-	<audio autoplay Loop>
-		<source src="theme.mp3" type="audio/mpeg">
+	<audio autoplay>
+		<source src="../media/Click.mp3" type="audio/mpeg">
 		Your browser does not support the audio element.
-	</audio>
+	  </audio>
 
-<link rel="stylesheet" type="text/css" href="style.css" /> 
+	  <audio autoplay Loop>
+		<source src="../media/Home.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	  </audio>
 
-<head>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <div class="title">
-    <h1><b>CamRiddles</b></h1>
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-      </div>
-  
-      <style>
-        body {
-          background-image: url('face.jpg');
-           /* Full height */
-           height: 100%; 
-          /* Center and scale the image nicely */
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          white-space: nowrap;
-        }
-        </style>
-      
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script defer src="face-api.min.js"></script>
-  <script defer src="script.js"></script>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+<!--
+A fan page/memoir of my dog Kobi:
+**********************
+Home (Pictures of Kobi)
+Life with her
+About miniature schnauzers
+About her
+Death
+**********************
+-->
 
-    canvas {
-      position: absolute;
-      top:0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin:auto;
-      
-    }
+<html>
+	<body style="background-color: #E7717D;">
+	<!--Source of css style and website style-->
+	<link rel="stylesheet" type="text/css" href="../css/master.css" /> 
 
-    .videobox {
-    width: 100vw;
-    height: 100vh;
-    border: 10px solid rgb(54, 160, 179);
-    border-radius: 40px;
-    }
-    .video-stream {margin: 30px;}
-    
-  </style>
-</head>
+	<!---Navigation-->
+<div class = "Navigation">
 
-<body>
-  <video id="video" width="360" height="240" style="display:block; margin:0 auto; top:0; bottom: 0; left: 0; right: 0;" autoplay muted></video>
-</body>
+	<audio id="player" src="../media/Click.mp3"></audio>
+	
+	<div>
+		<a class="active" href="#" onclick="document.getElementById('player').play()">Home</a>
+	</div>
 
+	<div>
+    	<a href="Life.html" onclick="document.getElementById('player').play()"><i>Life with her</i></a>
+	</div>
 
+	<div>
+    	<a href="aboutDog.html" onclick="document.getElementById('player').play()"><i>About Miniature Schnauzers</i></a>
+	</div>
 
-<div class = "riddle">
-	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-<p id = p1>I brighten people’s day</p> 
-<p id = p2>Yet cost nothing—no need to pay.</p> 
-<p id = p3>I disappear when mad or sad.</p>
-<p id = p4>But emerge when happy or glad.</p>
-<p id = p5>What am I?</p>
+	<div>
+    	<a href="about.html" onclick="document.getElementById('player').play()"><i>About Her</i></a>
+	</div>
+
+	<div>
+    	<a href="Death.html" onclick="document.getElementById('player').play()"><i>Death</i></a>
+	</div>
+
 </div>
 
+	 <!---
+	<a href="index.html">Home</a>
+	<a href="Life.html">Life with her</a>
+	<a href="aboutDog.html">About Miniature Schnauzers</a>
+	<a href="about.html">About her</a>
+	<a href="Death.html">Death</a>
+	--->
+
+	<head>
+		<title>Home</title>
+		<meta charset="utf-8" />
+		<meta name="Description" content="A fanpage/memoir for my beloved and deceased dog Kobi." />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	</head>
+
+	<div class="title">
+		<h1><b>Kobi</b></h1>
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+      </div>
+	
+ <div class="box">
+
+  <video autoplay loop muted>
+	<source src="../media/Kobi.mp4" type="video/mp4">
+	<source src="../media/Kobi.mp4" type="video/ogg">
+	Your browser does not support the video tag.
+  </video>
+
+  <video autoplay loop muted>
+	<source src="../media/yawn.mp4" type="video/mp4">
+	<source src="../media/yawn.mp4" type="video/ogg">
+	Your browser does not support the video tag.
+  </video>
+
+  <video autoplay loop muted>
+	<source src="../media/brush.mp4" type="video/mp4">
+	<source src="../media/brush.mp4" type="video/ogg">
+	Your browser does not support the video tag.
+  </video>
+
+	</br>
+	<img src="../images/Burrito.jpg" alt="Burrito" style="width:25%">
+	<img src="../images/Glance.jpg" alt="Glance" style="width:25%">
+	<img src="../images/Hug.jpg" alt="Hug" style="width:25%">
+	<img src="../images/Stare.jpg" alt="Stare" style="width:25%">
+	<img src="../images/Stare2.jpg" alt="Stare2" style="width:25%">
+	<img src="../images/Surprise.jpg" alt="Surprise" style="width:25%">
+
+ </div>
+	</body>   
 </html>
