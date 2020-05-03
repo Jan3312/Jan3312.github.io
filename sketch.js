@@ -108,7 +108,7 @@ function greet() {
 	}
   }
 
-//changes the state of the sketch if waldos head location is clicked
+//changes the state of the sketch 
 function mouseClicked() {
   if (mouseX >= (windowWidth*selectedLocationX-precision) && 
       mouseX <= (windowWidth*selectedLocationX+precision) && 
