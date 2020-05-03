@@ -1,0 +1,94 @@
+/* Add a black background color to the top navigation */
+.Navigation {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.Navigation a {
+  position: relative;
+  left: 30%;
+  float: left;
+  color: #f2f2f2;
+  text-align-last: center; 
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+.Navigation a:hover {
+  background-color: #ddd;
+  color: black;
+  text-align: center
+}
+
+/* Add a color to the active/current link */
+.Navigation a.active {
+  background-color: rgb(138, 17, 17);
+  color: white;
+  text-align: center
+}
+
+.title{
+font-family: 'Dancing Script', cursive;
+font-size: 100px;
+text-align: center;
+}
+
+.box{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.death{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dog{
+margin-left: auto;
+margin-right: auto;
+}
+.doge{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.kobi{
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.aboutdogleft{
+  font-family: 'Dancing Script', cursive;
+  
+  font-size: 40px;
+  position: absolute;
+  left: 16px;
+
+}
+
+.description{
+
+font-family: 'Dancing Script', cursive;
+font-size: 40px;
+position: absolute;
+left: 16px;
+bottom: 8px;
+color: black;
+
+}
+
+.bye{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }

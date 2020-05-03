@@ -1,3 +1,3 @@
 # Fan Page of Kobi
  
-Kobi
+A memoir of my deceased dog Kobi.
