@@ -1,3 +1,3 @@
-# CamRiddles
+# Fan Page of Kobi
  
-A game that uses the camera as a way to pass riddles.
+Kobi
