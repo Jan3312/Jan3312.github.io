@@ -1,4 +1,4 @@
-Github pages site: Jan3312.github.io
+Github pages site: https://jan3312.github.io/proposal.html
 
 General Responsibilities:
 everything
